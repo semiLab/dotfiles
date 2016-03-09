@@ -231,19 +231,6 @@ let g:vimfiler_marked_file_icon = '*'
 
 "vim-project
 let g:project_use_nerdtree = 1
-set rtp+=~/.vim/bundle/vim-project/
-call project#rc("~/Code")
-Project  'repos/dotfiles'
-File     'repos/dotfiles/vimrc'                       , 'vimrc'
-File     'repos/dotfiles/gvimrc'                      , 'gvimrc'
-
-Project 'sketchbook/'
-File 'sketchbook/NetbyteLights_BigSign/BigSign.ino', 'bigsign'
-
-
-
-"vim hardy
-let g:hardy_arduino_path = '/home/marvin/Desktop/arduino-1.6.5/arduino'
 
 nmap <F7> :VimFilerExplorer<CR>
 nmap <F6> :VimFilerSplit ~/shortcuts<CR>
@@ -295,4 +282,4 @@ nmap <silent> <leader>va :TestSuite<CR>
 nmap <silent> <leader>vl :TestLast<CR>
 nmap <silent> <leader>vg :TestVisit<CR>
 
-cd ~
+source ~/.vimlocal
