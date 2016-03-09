@@ -1,4 +1,5 @@
 set nu
+set nocompatible
 set noexpandtab
 autocmd FileType javascript set expandtab
 set tabstop=4
@@ -38,7 +39,7 @@ nmap <space> zz
 nmap <F1> <esc>
 
 "Clear highlight on escape
-nnoremap <esc> :noh<return><esc>
+"nnoremap <esc> :noh<return><esc>
 
 set nocompatible
 set laststatus=2
@@ -158,7 +159,7 @@ NeoBundle 'tpope/vim-haml'
 
 
 "" PHP Bundle
-NeoBundle 'arnaud-lb/vim-php-namespace'
+"NeoBundle 'arnaud-lb/vim-php-namespace'
 
 
 "" Javascript Bundle
@@ -239,7 +240,6 @@ File     'repos/dotfiles/gvimrc'                      , 'gvimrc'
 Project 'sketchbook/'
 File 'sketchbook/NetbyteLights_BigSign/BigSign.ino', 'bigsign'
 
-Project 'Work/hostedpbx'
 
 
 "vim hardy
